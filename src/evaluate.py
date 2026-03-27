@@ -4,7 +4,7 @@ from sklearn.metrics import accuracy_score
 
 THRESHOLD = 0.80
 
-df = pd.read_csv("data/sample.csv"
+df = pd.read_csv("data/sample.csv")
 X = df.drop("label", axis=1)
 y = df["label"]
 
